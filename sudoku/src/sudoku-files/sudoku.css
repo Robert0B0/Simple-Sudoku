@@ -1,0 +1,54 @@
+.box-cell {
+	fill: rgb(211, 211, 211);
+	stroke: rgb(0, 0, 0);
+	stroke-width: 5;
+	opacity: 0.8;
+}
+
+.highlighted {
+	fill: rgb(190, 123, 123);
+}
+
+.selected-cell {
+	fill: rgb(45, 134, 128);
+	stroke: rgb(0, 0, 0);
+	stroke-width: 5;
+	opacity: 0.8;
+}
+
+.cell-number {
+	color: black;
+	font: 30px sans-serif;
+	pointer-events: none;
+}
+
+.number {
+	color: black;
+	font: 30px sans-serif;
+	pointer-events: none;
+}
+
+.highlighted-number {
+	color: darkred;
+	font: 35px sans-serif;
+}
+
+.selected-number {
+	color: rgb(45, 134, 128);
+	font: Bold 35px sans-serif;
+}
+
+.image {
+	margin: auto;
+	width: 10%;
+	height: 10%;
+	border: 3px solid rgb(128, 109, 0);
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	border: 3px solid rgb(128, 109, 0);
+	padding: 10px;
+	text-align: center;
+}
